@@ -20,8 +20,8 @@ const io = require('socket.io')(server, {
 server.listen(process.env.PORT || 3000);
 
 
-const url = 'http://diendengiadung.com/api_mb247/api/index.php';
-const token='b2x5bXAxNjhAZ21haWwuY29tOkAxMjNANDU2'
+const url = 'https://mb247bank.com/api/';
+const token='bWIyNDdAbWIyNDdiYW5rLmNvbTptYmJhbmtAMTIzQDQ1Ng=='
 var arr_socket_id=[];
 
 io.on('connection', function(socket) {
