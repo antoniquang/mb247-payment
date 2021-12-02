@@ -67,7 +67,7 @@ setInterval(function(){
         }).catch((error) => {
 
         })
-},60000)
+},300000)
 
 setInterval(function(){ 
     console.log("Hoàn tiền");
@@ -91,7 +91,7 @@ setInterval(function(){
         }).catch((error) => {
 
         })
-},100000);
+},350000);
 
 app.get("/", function(req, res) {
     res.render("index");
